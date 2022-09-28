@@ -1,0 +1,35 @@
+.app-container {
+  display: flex;
+  min-height: 100vh;
+}
+.left-container {
+  background-color: #ffc533;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.right-container {
+  background-color: #0f172a;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.input-container {
+  display: flex;
+}
+.right-heading {
+  color: #ffbf1f;
+}
+.button {
+  background-color: #ffbf1f;
+  padding: 9px 9px 9px 9px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 4px;
+}
+.list-items {
+  list-style-type: none;
+}
